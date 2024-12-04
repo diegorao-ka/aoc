@@ -5,7 +5,7 @@ FILTER_RE = re.compile(r'don\'t\(\)[\d\D]*?(do\(\)|$)')
 
 
 def main():
-    with open("03/input.txt") as f:
+    with open("2024/03/input.txt") as f:
         s = f.read()
         s = re.sub(r'\n', '', s)
 

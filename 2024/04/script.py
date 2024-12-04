@@ -128,7 +128,7 @@ def _count_x_mas(grid: Grid) -> int:
 
 # d = DIRECTIONS[(3*(dy+1))  + (dx + 1)]
 def main():
-    with open('04/input.txt') as f:
+    with open('2024/04/input.txt') as f:
         txt = [line.strip() for line in f]
     grid = Grid(txt)
     print(f'XMAS appearances: {_count_appearances(grid, 'XMAS')}')

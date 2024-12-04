@@ -31,7 +31,7 @@ def _is_safe(report: list[int], dampen: bool=True) -> bool:
 
 
 def main():
-    with open("02/input.txt") as f:
+    with open("2024/02/input.txt") as f:
         reports = f.readlines()
     safe = 0
     for r in reports:

@@ -36,7 +36,7 @@ func GetLists(r io.Reader) (left, right []int) {
 }
 
 func main() {
-	file, err := os.Open("input.txt")
+	file, err := os.Open("2024/01/input.txt")
 	if err != nil {
 		fmt.Println("Error reading file")
 	}
